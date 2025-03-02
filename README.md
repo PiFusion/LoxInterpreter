@@ -41,6 +41,8 @@ lox-interpreter/
 | -- README.md
 | -- .gitignore
 
+![image](https://github.com/user-attachments/assets/c6594811-b016-4540-ae07-70a7bd2dc46a)
+
 
 Also, make sure you have Java installed too! You can check with
 java -version
