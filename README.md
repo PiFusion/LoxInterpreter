@@ -45,4 +45,8 @@ lox-interpreter/
 Also, make sure you have Java installed too! You can check with
 java -version
 
+Tests for the Interpreter
+![image](https://github.com/user-attachments/assets/8c847c2c-3772-4126-808e-12f5b6661de2)
+
+
 **Developed by PiFusion**
