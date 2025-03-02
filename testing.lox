@@ -1,1 +1,21 @@
-print 1 + 2 + 3;
+// Basic Arithmetic
+print 1 + 2 * 3; print (5 + 10) / 3; print 10 - 2; print 2 * 3 * 4; print 10 / 2;
+
+// Variables and Assignment
+var a = 10; var b = 20; print a + b; a = a * 2; print a;
+
+// If-Else Statement
+var x = 5; if (x > 3) { print "x is large"; } else { print "x is small"; }
+
+// While Loop
+var i = 0; while (i < 3) { print i; i = i + 1; }
+
+// For Loop
+for (var j = 1; j <= 5; j = j + 1) { print j; }
+
+// Logical Operators
+print true and false; print false or "hello";
+
+// Error Handling (Uncomment to test errors)
+// print 10 / 0; // Should throw a runtime error (divide by zero)
+// print unknownVar; // Should throw an "undefined variable" error
