@@ -1,0 +1,62 @@
+#Testing the Interpreter
+
+// =============================
+// Basic Arithmetic
+// =============================
+print 1 + 2 * 3;  // Expect: 7
+print (5 + 10) / 3;  // Expect: 5
+print 10 - 2;  // Expect: 8
+print 2 * 3 * 4;  // Expect: 24
+print 10 / 2;  // Expect: 5
+
+// =============================
+// Variables and Assignment
+// =============================
+var a = 10;
+var b = 20;
+print a + b;  // Expect: 30
+a = a * 2;
+print a;  // Expect: 20
+
+// =============================
+// If-Else Statement
+// =============================
+var x = 5;
+if (x > 3) {
+    print "x is large";  // Expect: "x is large"
+} else {
+    print "x is small";
+}
+
+// =============================
+// While Loop
+// =============================
+var i = 0;
+while (i < 3) {
+    print i;
+    i = i + 1;
+}
+// Expect: 0, 1, 2
+
+// =============================
+// For Loop
+// =============================
+for (var j = 1; j <= 5; j = j + 1) {
+    print j;
+}
+// Expect: 1, 2, 3, 4, 5
+
+// =============================
+// Logical Operators
+// =============================
+print true and false;  // Expect: false
+print false or "hello";  // Expect: "hello"
+
+// =============================
+// Error Handling
+// =============================
+// The following lines should throw errors
+// Uncomment these to test error handling
+
+// print 10 / 0;  // Should throw a runtime error (divide by zero)
+// print unknownVar;  // Should throw an "undefined variable" error
