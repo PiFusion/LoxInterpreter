@@ -10,8 +10,8 @@ This interpreter supports:
 * Control Flow like 'if' 'while' and 'for' loops
 
 To set it up, first clone the repository:
-git clone https://github.com/yourusername/lox-interpreter.git
-cd lox-interpreter                   This puts you in the Lox Interpreter directory
+git clone https://github.com/PiFusion/LoxInterpreter.git
+cd LoxInterpreter            This puts you in the Lox Interpreter directory
 
 Then Compile the source code:
 javac com/craftinginterpreters/lox/*.java
@@ -24,22 +24,22 @@ java com.craftinginterpreters.lox.Lox <and add> path/to/script.lox
 
 The project structure of the Lox Interpreter:
 
-lox-interpreter/
-| -- com/craftinginterpreters/lox/
-|  | -- Environment.java
-|  | -- Expr.java  
-|  | -- Interpreter.java 
-|  | -- Lox.java 
-|  | -- Parser.java 
-|  | -- RuntimeError.java 
-|  | -- Scanner.java 
-|  | -- Stmt.java 
-|  | -- Token.java 
-|  | -- TokenType.java 
-| -- com/craftinginterpreters/tool/
-|  | -- GenerateAst.java
-| -- README.md
-| -- .gitignore
+LOXINTERPRETER/
+| -- bin
+    | -- com/craftinginterpreters/lox/
+    |  | -- Environment.java
+    |  | -- Expr.java  
+    |  | -- Interpreter.java 
+    |  | -- Lox.java 
+    |  | -- Parser.java 
+    |  | -- RuntimeError.java 
+    |  | -- Scanner.java 
+    |  | -- Stmt.java 
+    |  | -- TokenType.java 
+    | -- com/craftinginterpreters/tool/
+    |  | -- GenerateAst.java
+    | -- README.md
+    | -- .gitignore
 
 ![image](https://github.com/user-attachments/assets/c6594811-b016-4540-ae07-70a7bd2dc46a)
 
